@@ -4,7 +4,7 @@ import sys;
 os.chdir(os.path.dirname(__file__))
 with open('7.txt','r') as f:
     input = [lines.strip() for lines in f.readlines()]
-sys.setrecursionlimit(3000)
+
 fs = {
     0: {
         "parentID": "",
